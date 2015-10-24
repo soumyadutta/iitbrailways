@@ -1,0 +1,36 @@
+1) Station entry velocity is (probably) not required and should be removed
+
+2) Units of length of train (should be in meters).
+
+3) For scheduled trains, number of halts is not required in the input interface.
+
+4) For loop occupancy at stations (for passenger trains), two features need to be added - one, a default train option of occupying main line at all stations, two, a drop down list for each station with the relevant loop numbers, so that proper loops can be selected.  Many passenger trains would occupy the main line at each station and should not need any further editing, only timings to be entered.  Also, when displaying loops (we should also display station name and type of loop, main line, common etc., so that the correct loop is selected).  
+
+5) Times should be in HH:MM (seconds not required).
+Some effort required
+
+6) We need to have at least some editability of the block information.  Currently, there is some editability of the station information, but block input is a bit inflexible.
+
+7) Exit and close options should be controlled in every screen.  Save automatically and ask on exit (whenever window is closed).
+
+8) Interface screen for initial use should be clickable (to start the simulator), rather than choosing some option in the Eclipse environment.
+
+9) Gradients should be level by default, except where specified as an up and down value at some locations.  Currently, if we provide some gradient value (other than level) somewhere, then we need to specify it as level everywhere else, explicitly.
+
+10) Consistency check for data (document will be provided).
+
+11) Speed restrictions currently not being implemented.  This still needs to be resolved by Ayush and Devendra.
+12) Design of output screens for the analysis of the simulator output in mixed traffic - i.e. firing multiple freight trains and collecting statistics of their traversal time and finally deciding on one set of trains to be run and displaying their average traversal time and a number as the outcome.
+13) FRS (Functional Requirement Specification) document.
+14) SRS (Software Requirement Specification) document.
+
+Things to be done at IIT B
+15) Implementation of maintenance blocks.
+16) Implementation of level crossings (optional, but desirable).
+17) Creation of pool of test examples.
+
+Things as suggested by Ayush
+18) Sighting distance in 2 aspect signaling.
+19) Number of halts should be automatically deduced from the station timing inputs.
+20) Tripling and quadrupling. 
+21)Units of all the parameters should be rechecked and some standards should be defined.
